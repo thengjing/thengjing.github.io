@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The thengjing Page</title>
+    <link rel="stylesheet" href="css/bulma.css">
+    <style>
+        @keyframes hello {
+            from    {left: -10em; opacity: 0;}
+            40%     {opacity: 1;}
+            50%     {left: 52em; opacity: 80;}
+            to      {left: 130em; opacity: 0;}
+        }
+        @keyframes there {
+            from    {right: -10em; opacity: 0;}
+            40%     {opacity: 1;}
+            50%     {right: 18em; opacity: 80;}
+            to      {right: 60em; opacity: 0;}
+        }
+        @keyframes content {
+            from    {opacity: 0;}
+            50%     {opacity: 0;}
+            to      {opacity: 100;}
+        }
+        /*
+        body {
+            text-color: white;
+            background-color: black;
+        }
+        */
+    </style>
+  </head>
+  <body>
+      <div style="position: absolute; left: -10em; top: 400px; animation-name: hello; animation-duration: 1.5s;">
+          <h1 class="title is-1">hello</h1>
+      </div>
+      <div style="position: absolute; right: 120em; top: 450px; animation-name: there; animation-duration: 1.5s;" class="title is-1">
+          there
+      </div>
+      <div style="animation-name: content; animation-duration: 2s;">
+          <section class="hero is-large">
+              <div class="hero-body">
+                  <div class="container">
+                      <h1 class="title has-text-weight-bold" style="font-size: 10rem">
+                          hey.
+                      </h1>
+                      <br>
+                      <p class="subtitle">
+                      heng jing is my name, and this is my page.
+                      </p>
+                  </div>
+              </div>
+  </section>
+      </div>
+  </body>
+</html>
